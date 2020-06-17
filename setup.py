@@ -30,6 +30,7 @@ setup(
 
     description='Reusable Django app to safely use non-core optional model Meta options',
     long_description=read_file('README.md'),
+    long_description_content_type="text/markdown",
     license='MIT',
 
     author='John Mark Vandenberg',
