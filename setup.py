@@ -36,7 +36,7 @@ setup(
     author='John Mark Vandenberg',
     author_email='jayvdb@gmail.com',
 
-    packages=find_packages('djsoomo'),
+    packages=find_packages(PACKAGE_DIR),
     zip_safe=True,
 
     classifiers=[
