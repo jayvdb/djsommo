@@ -22,7 +22,6 @@ def get_version():
     version = version.group(1).replace(', ', '.').strip()
     return version
 
-
 setup(
     name=PACKAGE_NAME,
     version=get_version(),
@@ -36,7 +35,7 @@ setup(
     author='John Mark Vandenberg',
     author_email='jayvdb@gmail.com',
 
-    packages=find_packages(PACKAGE_DIR),
+    packages=find_packages(),
     zip_safe=True,
 
     classifiers=[
